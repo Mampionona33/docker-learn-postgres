@@ -7,5 +7,5 @@ In this example, we show how you can use [Docker with CodeSandbox](https://codes
 
 run this command on codesandbox to access db
 ```
-docker exec -it sandbox_devcontainer-db-1 psql -U postgres -d postgres
+docker exec -it  docker-learn-postgres_devcontainer-db-1 psql -U postgres -d postgres
 ```
