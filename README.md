@@ -4,3 +4,8 @@ In this example, we show how you can use [Docker with CodeSandbox](https://codes
 
 - Every new terminal will run inside this new container, open a new terminal with CTRL ~
 - We set up an example sandbox task that runs `whereis htop`. Typically this would be where you run `yarn run serve`. You can edit it in [tasks.json](./.codesandbox/tasks.json)
+
+run this command on codesandbox to access db
+```
+docker exec -it sandbox_devcontainer-db-1 psql -U postgres -d postgres
+```
