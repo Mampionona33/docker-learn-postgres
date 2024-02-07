@@ -9,3 +9,12 @@ run this command on codesandbox to access db
 ```
 docker exec -it  docker-learn-postgres_devcontainer-db-1 psql -U postgres -d postgres
 ```
+
+Pour lancer une requette sql dans postegres on utilise la commande
+```
+psql -U <utilisateur> -d <base_de_donnees> -f <chemin_vers_fichier>
+```
+
+```
+psql -U postgres -d postgres -f requete.sql
+```
