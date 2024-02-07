@@ -6,7 +6,7 @@
   "tasks": {
     "whereis htop": {
       "name": "connect to postgres",
-      "command": "docker exec -it sandbox_devcontainer-db-1 psql -U postgres -d postgres",
+      "command": "docker exec -it  docker-learn-postgres_devcontainer-db-1 psql -U postgres -d postgres",
       "runAtStart": true
     }
   }
