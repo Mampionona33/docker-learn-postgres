@@ -5,8 +5,8 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "whereis htop": {
-      "name": "whereis htop",
-      "command": "whereis htop",
+      "name": "run postgres",
+      "command": "docker exec -it  docker-learn-postgres_devcontainer-db-1 psql -U postgres -d postgres",
       "runAtStart": true
     }
   }
